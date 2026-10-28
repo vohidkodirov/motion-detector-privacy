@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Политика конфиденциальности — Детектор движения</title>
+</head>
+<body>
+<pre>
+Политика конфиденциальности — «Детектор движения» (Motion Detector)
+Дата вступления в силу: 28 октября 2026 г.
+Пакет приложения (Package ID): com.aistudio.storozh.vqnwlt
+Контактный email разработчика: vohidkodirov5@gmail.com
+Настоящая Политика конфиденциальности описывает, как мобильное приложение «Детектор движения» («Приложение») обрабатывает данные пользователя и использует системные разрешения устройства.
+1. Сбор и хранение персональных данных
+Приложение не собирает, не хранит на внешних серверах и не передаёт третьим лицам ваши персональные данные, фотографии, видеозаписи, контакты или геолокацию. Все вычисления и настройки сохраняются исключительно локально на вашем устройстве (SharedPreferences).
+2. Используемые разрешения и цель их запроса
+Камера (android.permission.CAMERA, FOREGROUND_SERVICE_CAMERA):
+Используется исключительно для анализа выбранной области кадра в реальном времени (попиксельное сравнение смещения объекта впереди). Видеопоток и изображения обрабатываются только в оперативной памяти устройства, не записываются в память телефона и никогда не отправляются в интернет.
+Телефонные вызовы (android.permission.CALL_PHONE):
+Используется только по инициативе пользователя, если в настройках приложения вручную включена функция «Автозвонок при обнаружении движения» и указан номер телефона. Приложение не читает телефонную книгу и историю звонков.
+Уведомления и фоновая служба (android.permission.POST_NOTIFICATIONS, FOREGROUND_SERVICE, WAKE_LOCK, VIBRATE):
+Необходимы для поддержания активного наблюдения при затемнённом или заблокированном экране, отображения статуса охраны в шторке уведомлений и включения звукового/вибрационного сигнала тревоги.
+Доступ к аудиофайлам (системный файловый пикер Android):
+Используется только в том случае, если пользователь сам выбирает собственную мелодию будильника из памяти устройства.
+3. Сторонние сервисы (Реклама и платежи)
+В Приложении могут использоваться официальные сервисы Google, которые работают в соответствии с Политикой конфиденциальности Google (https://policies.google.com/privacy):
+Google AdMob — для показа рекламного баннера в нижней части экрана (может использовать рекламный идентификатор устройства для показа релевантных объявлений).
+Google Play Billing — для обработки добровольных встроенных покупок («Поблагодарить разработчика»). Финансовые данные обрабатываются напрямую системой Google Play; разработчик не имеет доступа к данным ваших банковских карт.
+4. Безопасность детей
+Приложение не предназначено для сбора каких-либо персональных данных у лиц младше 13 лет.
+5. Изменения в Политике конфиденциальности
+Разработчик оставляет за собой право обновлять настоящую Политику конфиденциальности. Актуальная версия всегда доступна по данной ссылке.
+6. Контакты
+По всем вопросам, связанным с конфиденциальностью и работой приложения, вы можете связаться с разработчиком:
+Email: vohidkodirov5@gmail.com
+Privacy Policy — Motion Detector (English Version)
+Effective Date: October 28, 2026
+Application Package ID: com.aistudio.storozh.vqnwlt
+Developer Contact Email: vohidkodirov5@gmail.com
+This Privacy Policy explains how the Motion Detector ("Детектор движения") mobile application ("the App") handles user data and device permissions.
+1. Data Collection and Storage
+The App does not collect, store on external servers, or share any personal data, photos, video recordings, contacts, or location data. All user preferences and sensitivity settings are stored strictly locally on your device.
+2. Device Permissions Used
+Camera (android.permission.CAMERA, FOREGROUND_SERVICE_CAMERA):
+Used exclusively for real-time on-device pixel comparison within the user-selected target area to detect movement. Camera frames are processed strictly in device RAM, are never saved to storage, and are never transmitted over the internet.
+Phone Calls (android.permission.CALL_PHONE):
+Used only if explicitly enabled by the user in the App's settings ("Auto-Call on Motion") to dial the user-specified phone number when motion is detected. The App does not read your contacts or call logs.
+Notifications & Foreground Service (android.permission.POST_NOTIFICATIONS, FOREGROUND_SERVICE, WAKE_LOCK, VIBRATE):
+Required to keep motion monitoring active while the screen is dimmed or locked, display a status notification in the system tray, and trigger the wake-up alarm and vibration.
+Custom Audio Selection:
+Uses the standard Android system document picker only when you choose to select a custom alarm sound file from your device.
+3. Third-Party Services (Ads & In-App Purchases)
+The App may use official Google services governed by the Google Privacy Policy:
+Google AdMob — to display a banner advertisement at the bottom of the screen.
+Google Play Billing — to process optional in-app tips ("Thank the Developer"). All payment transactions are handled securely by Google Play; the developer never receives or stores your payment details.
+4. Children's Privacy
+The App does not knowingly collect any personal information from children under the age of 13.
+5. Changes to This Privacy Policy
+We may update this Privacy Policy from time to time. Any changes will be posted on this page.
+6. Contact Us
+If you have any questions regarding this Privacy Policy, please contact the developer at:
+Email: vohidkodirov5@gmail.com
+</pre>
+</body>
+</html>
